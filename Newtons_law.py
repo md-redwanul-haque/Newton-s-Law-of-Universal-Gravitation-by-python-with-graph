@@ -21,9 +21,7 @@ def generate_F_r():
     
     for dist in r:
         force=G*(m1*m2)/(dist**2)
-        
         F.append(force)
-        
     create_graph(r,F)
 
 if __name__ == '__main__':
